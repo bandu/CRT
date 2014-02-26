@@ -4,11 +4,11 @@ body {
 
 ul.header-menu {
 	margin: 120px 0 0 0;
-	float: left;
+	float: right;
 }
 
 ul.header-menu li {
-	float: right;
+	float: left;
 	margin-right: 40px;
 	list-style: none;
 	padding: 5px;
@@ -17,12 +17,12 @@ ul.header-menu li {
 }
 
 ul.header-menu li:hover{
-	float: right;
+	float: left;
 	text-decoration: underline;
 	margin-right: 40px;
 	list-style: none;
 	padding: 5px;
-	border: 1px solid;
+	border: 2px solid;
 	background: lightblue;
 	box-shadow: 0 0 2px blue;
 
@@ -38,7 +38,7 @@ ul.header-menu li a {
 	width: auto;
 	margin: 40px 40px;
 	padding: 30px 100px;
-	font-size: 1em;
+	font-size: 1.5em;
 	 border: 1px solid;
 
 }
