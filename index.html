@@ -15,13 +15,33 @@
 	<body>
 		<!-- navbar -->
 
-		<div class="navbar navbar-default">
+		<div class="navbar navbar-inverse navbar-fixed-top">
 			<div class="container">
+
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+
 				<a class="navbar-brand text-muted" href="#">CRM Tools</a>
+
 				<div class="collapse navbar-collapse">
 				  <ul class="nav navbar-nav navbar-right">
-				    <li class="active"><a href="#">Sign up</a></li>
-				    <li><a href="#">Login</a></li>
+				    <li class="active">
+				    	<a href="#">Sign up</a>
+				    </li>
+				    <li>
+				    	<a href="#">Login</a>
+				    </li>
+				    <li class="dropdown">
+				    	<a data-toggle="dropdown" data-target="#" >About Us<b class="caret"></b></a>
+				    	<ul class="dropdown-menu">
+				    		<li><a href="#">Contact Us</a></li>
+				    		<li class="divider"></li>
+				    		<li><a href="#">Support</a></li>
+				    	</ul>
+				    </li>
 				  </ul>
 				</div>
 			</div>
@@ -30,6 +50,10 @@
 
 		<!-- end navbar -->
 
+
+		<!-- carosel -->
+
+		<!-- end carosel -->
 		<div class="container">	
 			<div class="jumbotron">	
 				<h2> Clinical Research Management Tools
@@ -38,25 +62,27 @@
 				<br>
 				<p class="lead">
 					Intuitive. Concise. Comprehensive. <br>
-					You'll love them!
 				</p>
 				<p><a class="btn btn-info btn-lg" href="#" role="button">Learn more</a></p>
 			</div>
 			<div class="row">
 				<div class="col-sm-4">
+					<b class="glyphicon glyphicon-file"></b>
 					<h3>Central documents repository</h3>
 					<p>
-						Share and maintain study documents more efficiently in a version-controlled enviroment where everyone has access to up to date documents at all times
+						Share and maintain study documents more efficiently in a version-controlled enviroment with easy access and versatile customization features
 					</p>
 				</div>
 				<div class="col-sm-4">
-					<h3>Streamlined communication system</h3>
+						<b class="glyphicon glyphicon-envelope"></b>
+					<h3>Streamlined communication</h3>
 					<p>
 						Clear communication pathways with full trasparency and well defined distribution lists to ensure right level of involvement from all departments in order to answer study-related questions promtly and effiently
 					</p>
 				</div>
 				<div class="col-sm-4">
-					<h3>Highly customizable alert system</h3>
+					<b class="glyphicon glyphicon-bell"></b>
+					<h3>Highly customizable alerts</h3>
 					<p>
 						Distribute project related news and udpates to appropiate parties in a controlled and well-organized enviroment
 					</p>
